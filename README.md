@@ -24,4 +24,4 @@ Or indicate currency types you interested in:
 ```
 
 ## Implementation
-Use 'urllib' to send request and get response. Decode html Markups and extract rate info using 'BeautifulSoup'.
+Use `urllib` to send request and get response. Decode html Markups and extract rate info using `BeautifulSoup`.
