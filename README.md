@@ -5,7 +5,7 @@ A simple rate crawler to get currency rate from [this](http://qq.ip138.com/hl.as
 ## Usage
 Execute *rate_crawler.py* using terminal.
 Default currency types are: `CNY`, `HKD`, `TWD`, `EUR`, `GBP`, `AUD`, `JPY` and `KRW`.
-`python rate_crawler.py 1`
+```python rate_crawler.py 1```
 ```
 {'美元': '1', '当前汇率': '6.786400', '人民币': '6.7864'}
 {'美元': '1', '当前汇率': '7.846900', '港元': '7.8469'}
@@ -17,7 +17,7 @@ Default currency types are: `CNY`, `HKD`, `TWD`, `EUR`, `GBP`, `AUD`, `JPY` and 
 {'美元': '1', '当前汇率': '1121.300049', '韩元': '1121.300049'}
 ```
 Or indicate currency types you interested in:
-`python rate_crawler.py 1 RUB THB`
+```python rate_crawler.py 1 RUB THB```
 ```
 {'美元': '1', '当前汇率': '62.901001', '俄罗斯卢布': '62.901001'}
 {'美元': '1', '当前汇率': '33.389999', '泰国铢': '33.389999'}
